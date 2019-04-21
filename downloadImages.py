@@ -8,7 +8,7 @@ import os
 
 start_time = time.time()
 
-def ExtractImageTags(obj):
+def ExtractImageTag(obj):
     taglist = obj.findAll("img")
     return taglist
 
@@ -45,7 +45,7 @@ if not os.path.exists(dirname):
     
 html = urlopen(args["website"])
 bsObj = BS(html, "html.parser")
-tags = ExtractImageTags(bsObj)
+tags = ExtractImageTag(bsObj)
 #print(tags)
 tagsources = ExtractTagSrc(tags)
 
