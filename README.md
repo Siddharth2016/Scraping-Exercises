@@ -12,3 +12,6 @@ This takes a CSV file remote link and helps to process it (file) in memory witho
 
 ### wikiHistroyCountryName.py
 This helps us to find the country of a user who made recent changes to a particular Wikipedia page. It uses ipstack API for finding the IP location of recent changes, which further helps to determine the country name.
+
+### findNGrams.py
+This script helps to find ngrams on a text obtained from python programming language wikipedia page.[Link](https://en.wikipedia.org/wiki/Python_(programming_language))
