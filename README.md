@@ -15,3 +15,6 @@ This helps us to find the country of a user who made recent changes to a particu
 
 ### findNGrams.py
 This script helps to find ngrams on a text obtained from python programming language wikipedia page.[Link](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+### randomTextGenerator.py
+This script uses the concept of Markov Model to create a random sentence from text present on a remote link, [*An Introduction to Assembly Language Programming on the Apple II*](http://textfiles.com/apple/alinto.txt).
