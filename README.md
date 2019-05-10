@@ -18,3 +18,6 @@ This script helps to find ngrams on a text obtained from python programming lang
 
 ### randomTextGenerator.py
 This script uses the concept of Markov Model to create a random sentence from text present on a remote link, [*An Introduction to Assembly Language Programming on the Apple II*](http://textfiles.com/apple/alinto.txt).
+
+### submitForm.py
+This allows user to submit online forms using python *requests* module **POST** method.
